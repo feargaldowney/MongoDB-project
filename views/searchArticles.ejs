@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <% include partials/head %>
+    <div class="wrapper">
+        <h1><%= title %></h1>
+        <h2>Search for an article</h2>
+        <p>I unfortunately could not get my search function to work. Apologies</p>
+        <body>
+          <form action="<%= article._id %>" method="post">
+            <input type="text" name="text">
+          </form>
+          <br>
+          <button><a href="/search/<%= article._id %>">Search</a></button> <br>
+          <button><a href="/">Blog Home</a></button>
+        </body>
+    </div>
+    </html>

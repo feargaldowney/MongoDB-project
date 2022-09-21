@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <% include partials/head %>
+    <div class="wrapper">
+        <h1><%= title %></h1>
+        <body>
+          <form action="<%= article._id %>" method="post">
+            <label>Article Name</label>
+            <br>
+            <input type="text" name = "name" value="<%= article.name %>">
+            <br>
+            <label>Description</label>
+            <br>
+            <input type="text" name = "description" value ="<%= article.description %>">
+            <br>
+            <br>
+            <button>Delete</button>
+          </form>
+          <button><a href="/">Blog Home</a></button>
+        </body>
+    </div>
+</html>

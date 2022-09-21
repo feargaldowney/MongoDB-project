@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #000;
+  overflow-y: scroll;
+  background: #777;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+button {
+  background: rgb(252, 135, 0);  
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 5px;
+}
+th, td {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+th {
+  font-size: 20px;
+}
+header {
+  margin-bottom: 20px;
+  background: rgb(252, 135, 0);
+}
+
+.wrapper {
+  max-width: 970px;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  float: left;
+  line-height: 52px;
+}
+li a {
+  line-height: 52px;
+  display: block;
+  height: 52px;
+  color: #000;
+  font-weight: 600;
+  padding: 0 10px;
+}
+ul.nv-l {
+  float: left;
+  margin-left: 20px;
+}
+ul.nv {
+  float: right;
+  margin-right: -10px;
+}
+.rt-wrapper {
+  margin-left: -20px;
+  margin-right: -44px;
+  overflow: auto;
+  margin-top: 20px;
+}
+.nv-b {
+  background: white;
+  display: block;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 0 19px;
+}
+.nv-g {
+  padding-right: 10px;
+  color: #666666;
+}
+.nv-b a.ac {
+  border-bottom: 2px solid #1174CB;
+  font-weight: 600;
+  color: #000;
+  height: 50px;
+}
+.nv-b a {
+  font-weight: 400;
+}
+h1 {
+  font-size: 3em;
+  margin-top: 30px;
+}

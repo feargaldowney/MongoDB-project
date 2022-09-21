@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<% include partials/head %>
+    <div class="wrapper">
+        <h1><%= title %></h1>
+        <br>
+        <h2>New Article</h2>
+        <div class="ra-r"></div>
+        <body>
+            <div>
+              <form action="/articles/create" method="post">
+              <label>Title</label><br>
+              <input type="text" name="name">
+                <br /> <br />
+              <label>Description</label>
+              <br>
+              <input type="text" name="description">
+              <br><br>
+              <button>publish</button>
+                </form>
+                <form action="/">
+                <br>
+                <button>Cancel</button>
+              </div>
+            </body>
+    </div>
+</div>
+
+</html>

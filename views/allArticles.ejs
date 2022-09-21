@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<% include partials/head %>
+<div class="wrapper"> 
+  <h1><%= title %></h1>
+  <body>
+
+  <table class="table table-inverse">
+
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% if(articleList.length > 0) { %>
+        <% for(let article of articleList) { %>
+          <tr>
+          <td><%= article.name %></td>
+          <td><%= article.description %></td>
+          <td>
+            <button><a href="update/<%= article._id %>">Update Article</a></button>
+            <button><a href="delete/<%= article._id %>">Delete Article</a></button>
+          </td>
+        </tr>
+        <% } %>
+      <% } %>
+    </tbody>
+  </table>
+
+</body>
+</div>
+
+</html>
